@@ -1,4 +1,5 @@
 # CE-method
+ Cross-Entropy method
 ## Taxonomy
 - Model-free
 - Policy-based

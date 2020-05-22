@@ -82,7 +82,6 @@ def early_stop():
 
 def train_loop(env, agent, criterion, n_epochs=100, ep_batch=16, writer=None):
     epoch = 1
-    loss = 0
     reward_mean = -500
     optimizer = agent.optimizer
     while epoch < n_epochs and reward_mean < -80:
